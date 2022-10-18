@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.htmx-swapping td {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+td,
+th {
+    border: 1px solid #1f1e1e;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
